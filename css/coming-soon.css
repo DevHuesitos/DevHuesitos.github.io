@@ -30,7 +30,8 @@ p
 
 .language-container
 {
-	width: 100%;
+	width: 60%;
+	margin: auto;
 	padding: .5rem;
 	text-align: center;
 }
