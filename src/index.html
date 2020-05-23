@@ -1,0 +1,239 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>DevHuesitos</title>
+
+		<!-- Google Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Font Awesome -->
+		<script
+			src="https://kit.fontawesome.com/bfa614e66d.js"
+			crossorigin="anonymous"
+		></script>
+
+		<!-- Normalize.css -->
+		<link rel="stylesheet" href="./css/vendor/normalize.css" />
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		<header>
+			<div class="grid-container navbar">
+				<div class="brand">
+					<p class="brand__text">DevHuesitos</p>
+				</div>
+
+				<div class="menu">
+					<input type="checkbox" class="menu__toggler" />
+
+					<div class="menu__icon"><div></div></div>
+
+					<div class="menu__list">
+						<div>
+							<div>
+								<ul>
+									<li><a href="#home">Home</a></li>
+									<li><a href="#services">Services</a></li>
+									<li><a href="#about">About</a></li>
+									<li><a href="#contact">Contact</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid-container header">
+				<h1 class="header__title">Hi, I'm <span>Huesitos</span></h1>
+				<p class="header__subtitle">Design &amp; Development</p>
+				<img src="./assets/logo.jpg" alt="" class="header__img" />
+			</div>
+		</header>
+
+		<main>
+			<!-- Services section -->
+			<section>
+				<div class="grid-container services">
+					<h2 class="section__title">Services</h2>
+
+					<div class="services__card">
+						<h3 class="services__title">Design</h3>
+						<img
+							src="./assets/design.svg"
+							alt=""
+							class="services__img"
+						/>
+						<p class="services__text">
+							Lorem ipsum dolor sit amet consectetur, adipisicing
+							elit. Consectetur voluptate error fugit est, debitis
+							illum!
+						</p>
+					</div>
+
+					<div class="services__card">
+						<h3 class="services__title">Development</h3>
+						<img
+							src="./assets/development.svg"
+							alt=""
+							class="services__img"
+						/>
+						<p class="services__text">
+							Lorem ipsum dolor sit amet consectetur, adipisicing
+							elit. Consectetur voluptate error fugit est, debitis
+							illum!
+						</p>
+					</div>
+
+					<div class="services__card">
+						<h3 class="services__title">Consulting</h3>
+						<img
+							src="./assets/consulting.svg"
+							alt=""
+							class="services__img"
+						/>
+						<p class="services__text">
+							Lorem ipsum dolor sit amet consectetur, adipisicing
+							elit. Consectetur voluptate error fugit est, debitis
+							illum!
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- About section -->
+			<section>
+				<div class="grid-container about">
+					<h2 class="section__title">About</h2>
+					<p class="section__subtitle">Full stack web developer</p>
+					<img src="./assets/about.png" alt="" class="about__img" />
+					<p class="about__text">
+						Lorem ipsum, dolor sit amet consectetur adipisicing
+						elit. Dolor voluptate ea alias culpa praesentium, quos
+						reiciendis adipisci architecto saepe. Repellat ipsum
+						asperiores quo sit ipsam nihil sunt quod, quae quaerat
+						nam blanditiis explicabo ex aspernatur nisi est maiores,
+						iusto culpa odit perferendis, accusamus sed debitis
+						totam laudantium aut. Quia, vitae.
+					</p>
+				</div>
+			</section>
+
+			<!-- Contact section -->
+			<section>
+				<div class="grid-container contact">
+					<h2 class="section__title">Contact</h2>
+
+					<div class="contact__sidebar">
+						<div class="contact__card">
+							<div class="contact__icon"><i class="fas fa-envelope"></i></div>
+							<div class="contact__info"><a href="mailto:hi.im.huesitos@gmail.com">hi.im.huesitos@gmail.com</a></div>
+						</div>
+
+						<div class="contact__card">
+							<div class="contact__icon"><i class="fas fa-phone"></i></div>
+							<div class="contact__info"><p>+569 9794 3712</p></div>
+						</div>
+
+						<div class="contact__card">
+							<div class="contact__icon"><i class="fab fa-whatsapp"></i></div>
+							<div class="contact__info"><p>+569 9794 3712</p></div>
+						</div>
+
+						<div class="social">
+							<ul class="social__list">
+								<li class="social__item">
+									<a
+										href="https://github.com/DevHuesitos"
+										target="_blank"
+										class="social__link"
+										><i class="fab fa-github"></i
+									></a>
+								</li>
+	
+								<li class="social__item">
+									<a
+										href="https://www.instagram.com/devhuesitos/"
+										target="_blank"
+										class="social__link"
+										><i class="fab fa-instagram"></i></i
+									></a>
+								</li>
+	
+								<li class="social__item">
+									<a
+										href="https://www.linkedin.com/in/devhuesitos/"
+										target="_blank"
+										class="social__link"
+										><i class="fab fa-linkedin"></i></i></i
+									></a>
+								</li>
+	
+								<li class="social__item">
+									<a
+										href="https://twitter.com/dev_huesitos"
+										target="_blank"
+										class="social__link"
+										><i class="fab fa-twitter"></i></i></i></i
+									></a>
+								</li>
+							</ul>
+						</div>
+
+						<img src="./assets/contact.svg" alt="" class="contact__img">
+					</div>
+
+					<form action="">
+						<label for="input__name" class="sr-only">Name</label>
+						<input
+							type="text"
+							name="input__name"
+							id="input__name"
+							placeholder="Type in your personal or business name..."
+						/>
+
+						<label for="input__email" class="sr-only">Email</label>
+						<input
+							type="email"
+							name="input__email"
+							id="input__email"
+							placeholder="Type in a valid email address..."
+						/>
+
+						<label for="input__subject" class="sr-only"
+							>Subject</label
+						>
+						<input
+							type="text"
+							name="input__subject"
+							id="input__subject"
+							placeholder="Please provide a subject for your message..."
+						/>
+
+						<label for="input__message" class="sr-only"
+							>Message</label
+						>
+						<textarea
+							name="input__message"
+							id="input__message"
+							cols="30"
+							rows="10"
+							placeholder="Type in your full message here (max 500 characters)..."
+						></textarea>
+
+						<button class="btn">Send</button>
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<p class="footer__text">&copy; DevHuesitos, Chile 2020</p>
+		</footer>
+	</body>
+</html>
